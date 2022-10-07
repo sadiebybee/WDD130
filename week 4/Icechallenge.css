@@ -1,0 +1,29 @@
+body {
+  color: white;
+  background-color: rgb(244, 148, 186);
+  margin: 0 auto;
+  text-align: center;
+}
+h1:hover {
+  color: black;
+}
+.box_content {
+  margin: 0 auto;
+  width: 32%;
+}
+.first {
+  font-size: 100%;
+}
+.list {
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+}
+img {
+  width: 30%;
+  height: 50%;
+}
+.quote {
+  font-size: 150%;
+  font-weight: bold;
+}
