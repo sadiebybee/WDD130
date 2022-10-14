@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@300&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
   text-align: center;
   color: #faf3dd;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1,
@@ -22,12 +25,21 @@ main section {
   text-align: center;
 }
 
+main section img{
+  box-sizing: border-box;
+}
+
 #background {
+  background-color: #aed9e0;
   height: 725px;
 }
 
 body {
   background-color: #faf3dd;
+  font-family; Merriweather, Times, serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -39,11 +51,19 @@ nav a:hover {
   color: #ffa69e;
 }
 
+#logo_link{
+  padding-top: 5px;
+}
+
 .book,
 .join {
   background-color: #ffa69e;
   color: #faf3dd;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -52,21 +72,24 @@ nav a:hover {
   color: #ffa69e;
 }
 
-#background {
-  background-color: #aed9e0;
-}
-
 .msg {
   background-color: #b8f2e6;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #b8f2e6;
   color: #ffa69e;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 .home-title {
   color: #aed9e0;
+  font-family: Courgette, Helvetica, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -79,6 +102,8 @@ h4 {
 
 .msg p {
   color: #ffa69e;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer a {
@@ -97,6 +122,7 @@ footer a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
@@ -109,4 +135,24 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+h2{
+  margin: 0;
+}
+
+footer .social img{
+  padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+.card-img{
+  border: 10px solid #ffa69e
+}
+
+.mountains{
+  margin: 50px 0;
 }

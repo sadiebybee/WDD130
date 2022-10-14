@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.red {
+  background-color: red;
+  height: 70px;
+  width: 25%;
+}
+
+.blue {
+  background-color: blue;
+  height: 70px;
+  width: 50%;
+}
+
+.green {
+  background-color: green;
+  height: 70px;
+  width: 75%;
+}

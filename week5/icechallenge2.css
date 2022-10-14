@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+#background {
+  background-color: rgb(139, 139, 139);
+  height: 500px;
+}
+
+.picture {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.picture > img {
+  height: 300px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(78, 78, 78);
+  border-radius: 200px;
+}
