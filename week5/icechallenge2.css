@@ -10,6 +10,8 @@ body {
 #background {
   background-color: rgb(139, 139, 139);
   height: 500px;
+  margin-right: 55px;
+  margin-left: 55px;
 }
 
 .picture {
