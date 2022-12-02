@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lora&display=swap");
+
+body {
+  background-color: white;
+  font-family: "lora", Times, serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 100px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #dc7f5e;
+  border-radius: 200px;
+  margin: 5px;
+  margin-left: 50px;
+}
+header {
+  background-color: #03989e;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: #a6a6a6;
+  text-decoration: none;
+  padding: 35px;
+  font-family: "Lobster", Times, serif;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background-color: #dc7f5e;
+}
+.body {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+}
+.body h1 {
+  text-align: center;
+  font-family: "Lobster", Times, serif;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.body h4 {
+  text-align: center;
+  font-size: 30px;
+}
+.marie_img1_div {
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: block;
+  margin: auto;
+}
+.marie_img2_div {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.marie_img2_div > img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.body h2 {
+  text-align: center;
+  font-family: "lobster", Times, serif;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.body p {
+  text-align: center;
+  font-size: 30px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+footer {
+  background-color: #03989e;
+  color: #dc7f5e;
+  padding: 25px 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+footer a:hover {
+  background-color: #6cc2c6;
+  color: white;
+}
+footer p {
+  font-size: 1em;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
+}
